@@ -1,11 +1,11 @@
-<h1 align="center">
+<h2 align="center">
   <p align="center">
     <img src="https://github.com/thom1606/thom1606/blob/master/me.jpg?raw=true" alt="My picture" height="150" />
   </p>
   <br />
-  <p>Thom van den Broek</p>
+  <p style="font-size: 24px;">Thom van den Broek</p>
   <p style="color: #A2A2A2; font-size: 18px;">Co-founder of Fooxly</p>
-</h1>
+</h2>
 <h1 align="center">
   <a href="https://www.fooxly.com" style="color: #000000; font-size: 19px;">
     <img align="center" alt="Fooxly" height="40px" src="https://fooxly.com/assets/images/company/press/images/Fooxly%20Logo.jpg">
