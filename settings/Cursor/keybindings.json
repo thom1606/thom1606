@@ -1,305 +1,305 @@
 // Place your key bindings in this file to override the defaults
 [
-  // MacOS
-  {
-    "key": "shift+cmd+o",
-    "command": "-workbench.action.terminal.openDetectedLink",
-    "when": "terminalFocus && terminalHasBeenCreated && isMac"
-  },
-  {
-    "key": "shift+cmd+o",
-    "command": "workbench.action.quickOpen",
-    "when": "isMac"
-  },
-  {
-    "key": "shift+cmd+o",
-    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
-    "when": "inFilesPicker && inQuickOpen && isMac"
-  },
-  {
-    "key": "cmd+1",
-    "command": "-workbench.action.focusFirstEditorGroup",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+1",
-    "command": "workbench.view.explorer",
-    "when": "viewContainer.workbench.view.explorer.enabled && isMac"
-  },
-  {
-    "key": "cmd+2",
-    "command": "workbench.view.search",
-    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/ && isMac"
-  },
-  {
-    "key": "cmd+2",
-    "command": "workbench.action.findInFiles",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+3",
-    "command": "-workbench.action.focusThirdEditorGroup",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+3",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active && isMac"
-  },
-  {
-    "key": "cmd+3",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded' && isMac"
-  },
-  {
-    "key": "cmd+4",
-    "command": "-workbench.action.focusFourthEditorGroup",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+4",
-    "command": "workbench.view.debug",
-    "when": "viewContainer.workbench.view.debug.enabled && isMac"
-  },
-  {
-    "key": "cmd+5",
-    "command": "-workbench.action.focusFifthEditorGroup",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+5",
-    "command": "workbench.view.extensions",
-    "when": "viewContainer.workbench.view.extensions.enabled && isMac"
-  },
-  {
-    "key": "cmd+6",
-    "command": "workbench.action.chat.openInSidebar",
-    "when": "isMac"
-  },
-  {
-    "key": "alt+cmd+b",
-    "command": "workbench.action.tasks.build",
-    "when": "taskCommandsRegistered && isMac"
-  },
-  {
-    "key": "shift+cmd+b",
-    "command": "-workbench.action.tasks.build",
-    "when": "taskCommandsRegistered && isMac"
-  },
-  {
-    "key": "shift+cmd+b",
-    "command": "workbench.action.toggleAuxiliaryBar",
-    "when": "isMac"
-  },
-  {
-    "key": "alt+cmd+b",
-    "command": "-workbench.action.toggleAuxiliaryBar",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+d",
-    "command": "-notebook.addFindMatchToSelection",
-    "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook' && isMac"
-  },
-  {
-    "key": "cmd+d",
-    "command": "-editor.action.addSelectionToNextFindMatch",
-    "when": "editorFocus && isMac"
-  },
-  {
-    "key": "cmd+d",
-    "command": "workbench.action.splitEditor",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+\\",
-    "command": "-workbench.action.splitEditor",
-    "when": "isMac"
-  },
-  {
-    "key": "shift+cmd+d",
-    "command": "workbench.action.splitEditorDown",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+k cmd+\\",
-    "command": "-workbench.action.splitEditorDown",
-    "when": "isMac"
-  },
-  {
-    "key": "shift+cmd+d",
-    "command": "-workbench.view.debug",
-    "when": "viewContainer.workbench.view.debug.enabled && isMac"
-  },
-  {
-    "key": "cmd+[",
-    "command": "workbench.action.focusPreviousGroup",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+]",
-    "command": "workbench.action.focusNextGroup",
-    "when": "isMac"
-  },
-  {
-    "key": "cmd+[",
-    "command": "-editor.action.outdentLines",
-    "when": "editorTextFocus && !editorReadonly && isMac"
-  },
-  {
-    "key": "cmd+]",
-    "command": "-editor.action.indentLines",
-    "when": "editorTextFocus && !editorReadonly && isMac"
-  },
-  // Windows
-  {
-    "key": "shift+ctrl+o",
-    "command": "-workbench.action.terminal.openDetectedLink",
-    "when": "terminalFocus && terminalHasBeenCreated && isWindows"
-  },
-  {
-    "key": "shift+ctrl+o",
-    "command": "workbench.action.quickOpen",
-    "when": "isWindows"
-  },
-  {
-    "key": "shift+ctrl+o",
-    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
-    "when": "inFilesPicker && inQuickOpen && isWindows"
-  },
-  {
-    "key": "ctrl+1",
-    "command": "-workbench.action.focusFirstEditorGroup",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+1",
-    "command": "workbench.view.explorer",
-    "when": "viewContainer.workbench.view.explorer.enabled && isWindows"
-  },
-  {
-    "key": "ctrl+2",
-    "command": "workbench.view.search",
-    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/ && isWindows"
-  },
-  {
-    "key": "ctrl+2",
-    "command": "workbench.action.findInFiles",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+3",
-    "command": "-workbench.action.focusThirdEditorGroup",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+3",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active && isWindows"
-  },
-  {
-    "key": "ctrl+3",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded' && isWindows"
-  },
-  {
-    "key": "ctrl+4",
-    "command": "-workbench.action.focusFourthEditorGroup",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+4",
-    "command": "workbench.view.debug",
-    "when": "viewContainer.workbench.view.debug.enabled && isWindows"
-  },
-  {
-    "key": "ctrl+5",
-    "command": "-workbench.action.focusFifthEditorGroup",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+5",
-    "command": "workbench.view.extensions",
-    "when": "viewContainer.workbench.view.extensions.enabled && isWindows"
-  },
-  {
-    "key": "ctrl+6",
-    "command": "workbench.action.chat.openInSidebar",
-    "when": "isWindows"
-  },
-  {
-    "key": "alt+ctrl+b",
-    "command": "workbench.action.tasks.build",
-    "when": "taskCommandsRegistered && isWindows"
-  },
-  {
-    "key": "shift+ctrl+b",
-    "command": "-workbench.action.tasks.build",
-    "when": "taskCommandsRegistered && isWindows"
-  },
-  {
-    "key": "shift+ctrl+b",
-    "command": "workbench.action.toggleAuxiliaryBar",
-    "when": "isWindows"
-  },
-  {
-    "key": "alt+ctrl+b",
-    "command": "-workbench.action.toggleAuxiliaryBar",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+d",
-    "command": "-notebook.addFindMatchToSelection",
-    "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook' && isWindows"
-  },
-  {
-    "key": "ctrl+d",
-    "command": "-editor.action.addSelectionToNextFindMatch",
-    "when": "editorFocus && isWindows"
-  },
-  {
-    "key": "ctrl+d",
-    "command": "workbench.action.splitEditor",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+\\",
-    "command": "-workbench.action.splitEditor",
-    "when": "isWindows"
-  },
-  {
-    "key": "shift+ctrl+d",
-    "command": "workbench.action.splitEditorDown",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+k ctrl+\\",
-    "command": "-workbench.action.splitEditorDown",
-    "when": "isWindows"
-  },
-  {
-    "key": "shift+ctrl+d",
-    "command": "-workbench.view.debug",
-    "when": "viewContainer.workbench.view.debug.enabled && isWindows"
-  },
-  {
-    "key": "ctrl+[",
-    "command": "workbench.action.focusPreviousGroup",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+]",
-    "command": "workbench.action.focusNextGroup",
-    "when": "isWindows"
-  },
-  {
-    "key": "ctrl+[",
-    "command": "-editor.action.outdentLines",
-    "when": "editorTextFocus && !editorReadonly && isWindows"
-  },
-  {
-    "key": "ctrl+]",
-    "command": "-editor.action.indentLines",
-    "when": "editorTextFocus && !editorReadonly && isWindows"
-  },
+    // MacOS
+    {
+        "key": "shift+cmd+o",
+        "command": "-workbench.action.terminal.openDetectedLink",
+        "when": "terminalFocus && terminalHasBeenCreated && isMac"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "workbench.action.quickOpen",
+        "when": "isMac"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen && isMac"
+    },
+    {
+        "key": "cmd+1",
+        "command": "-workbench.action.focusFirstEditorGroup",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled && isMac"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.view.search",
+        "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/ && isMac"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.findInFiles",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+3",
+        "command": "-workbench.action.focusThirdEditorGroup",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active && isMac"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded' && isMac"
+    },
+    {
+        "key": "cmd+4",
+        "command": "-workbench.action.focusFourthEditorGroup",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+4",
+        "command": "workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled && isMac"
+    },
+    {
+        "key": "cmd+5",
+        "command": "-workbench.action.focusFifthEditorGroup",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+5",
+        "command": "workbench.view.extensions",
+        "when": "viewContainer.workbench.view.extensions.enabled && isMac"
+    },
+    {
+        "key": "cmd+6",
+        "command": "workbench.action.chat.openInSidebar",
+        "when": "isMac"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "workbench.action.tasks.build",
+        "when": "taskCommandsRegistered && isMac"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "-workbench.action.tasks.build",
+        "when": "taskCommandsRegistered && isMac"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "workbench.action.toggleAuxiliaryBar",
+        "when": "isMac"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "-workbench.action.toggleAuxiliaryBar",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-notebook.addFindMatchToSelection",
+        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook' && isMac"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus && isMac"
+    },
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.splitEditor",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor",
+        "when": "isMac"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "workbench.action.splitEditorDown",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorDown",
+        "when": "isMac"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "-workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled && isMac"
+    },
+    {
+        "key": "cmd+[",
+        "command": "workbench.action.focusPreviousGroup",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+]",
+        "command": "workbench.action.focusNextGroup",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+[",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly && isMac"
+    },
+    {
+        "key": "cmd+]",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly && isMac"
+    },
+    // Windows
+    {
+        "key": "shift+ctrl+o",
+        "command": "-workbench.action.terminal.openDetectedLink",
+        "when": "terminalFocus && terminalHasBeenCreated && isWindows"
+    },
+    {
+        "key": "shift+ctrl+o",
+        "command": "workbench.action.quickOpen",
+        "when": "isWindows"
+    },
+    {
+        "key": "shift+ctrl+o",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen && isWindows"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "-workbench.action.focusFirstEditorGroup",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled && isWindows"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.view.search",
+        "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/ && isWindows"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.findInFiles",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "-workbench.action.focusThirdEditorGroup",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active && isWindows"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded' && isWindows"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "-workbench.action.focusFourthEditorGroup",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled && isWindows"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "-workbench.action.focusFifthEditorGroup",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "workbench.view.extensions",
+        "when": "viewContainer.workbench.view.extensions.enabled && isWindows"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "workbench.action.chat.openInSidebar",
+        "when": "isWindows"
+    },
+    {
+        "key": "alt+ctrl+b",
+        "command": "workbench.action.tasks.build",
+        "when": "taskCommandsRegistered && isWindows"
+    },
+    {
+        "key": "shift+ctrl+b",
+        "command": "-workbench.action.tasks.build",
+        "when": "taskCommandsRegistered && isWindows"
+    },
+    {
+        "key": "shift+ctrl+b",
+        "command": "workbench.action.toggleAuxiliaryBar",
+        "when": "isWindows"
+    },
+    {
+        "key": "alt+ctrl+b",
+        "command": "-workbench.action.toggleAuxiliaryBar",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-notebook.addFindMatchToSelection",
+        "when": "config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook' && isWindows"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus && isWindows"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "workbench.action.splitEditor",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor",
+        "when": "isWindows"
+    },
+    {
+        "key": "shift+ctrl+d",
+        "command": "workbench.action.splitEditorDown",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+k ctrl+\\",
+        "command": "-workbench.action.splitEditorDown",
+        "when": "isWindows"
+    },
+    {
+        "key": "shift+ctrl+d",
+        "command": "-workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled && isWindows"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.focusPreviousGroup",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "workbench.action.focusNextGroup",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly && isWindows"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly && isWindows"
+    }
 ]
