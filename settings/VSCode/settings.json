@@ -1,0 +1,118 @@
+{
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js, ${capture}.test.ts",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts, ${capture}.test.js",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "Cargo.toml": "Cargo.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "files.associations": {
+        "*.css": "css",
+        ".env.*": "editorconfig"
+    },
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.codeActionsOnSave": {
+        // SET FOR XO
+        "source.fixAll": "always",
+        // SET FOR BIOMEJS
+        "quickfix.biome": "explicit",
+        "source.organizeImports.biome": "explicit"
+    },
+    "editor.accessibilitySupport": "off",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.tabCompletion": "on",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.foldingStrategy": "indentation",
+    "editor.suggest.preview": true,
+    "editor.fontSize": 13,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "'Monaspace Neon Var', monospace",
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'liga'",
+    "terminal.integrated.fontFamily": "Monaspace Neon Var",
+    "terminal.integrated.fontSize": 13,
+    "workbench.activityBar.location": "top",
+    "workbench.editor.tabActionLocation": "left",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
+    "workbench.preferredLightColorTheme": "GitHub Light",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.startupEditor": "none",
+    "window.newWindowProfile": "Default",
+    "window.confirmSaveUntitledWorkspace": false,
+    "git.autofetch": true,
+    "git.mergeEditor": true,
+    "git.allowForcePush": true,
+    "git.autoStash": true,
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "never",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "remote.SSH.remotePlatform": {
+        "31.151.179.47": "linux"
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "terminal.external.osxExec": "Ghostty.app",
+    // Experimental
+    // Formatting
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[markdown]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+    // Extension settings
+    "workspace.alwaysShowToggle": false,
+    "workspace.statusbarPriority": 0,
+    "quickterminal.priority": 1,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "javascript"
+    },
+    "terminal.integrated.env.osx": {
+        "Q_NEW_SESSION": "1"
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "window.autoDetectHighContrast": false,
+    "remoteHub.commitDirectlyWarning": "off",
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+    "lldb.launch.expressions": "native",
+}
